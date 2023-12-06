@@ -1,0 +1,73 @@
+.editModal{
+    background-color:#fff;
+    width:50rem;
+    height:25rem;
+    border-radius:9px;
+    margin:2rem auto;
+}
+
+.edit__heading{
+    margin-bottom:3rem;
+    text-align:center;
+    font-size:1.8rem;
+}
+
+.edit__form{
+   margin:2rem auto;
+   width:100%;
+   height:80%;
+}
+
+.form__item{
+    margin:1.4rem auto;
+}
+
+.form__itemlabel{
+    margin-left:1.5rem;
+    margin-right:3rem;
+    display:inline-block;
+    width:5rem;
+    font-weight:bolder;
+}
+
+.form__itemInput{
+    width:70%;
+    height:1.8rem;
+    padding:0.5rem;
+}
+
+input:focus{
+  outline: none;
+}
+
+.save__btns{
+    width:45%;
+    margin:2.5rem auto;
+    text-align:left;
+}
+
+
+.edit__cancelBtn {
+    background: #1A1A1A;
+    border: 1px solid #1A1A1A;
+}
+
+
+.edit__cancelBtn:hover {
+  color: #1A1A1A;
+  background-color:#fff;
+}
+
+
+.edit__saveBtns {
+    background: #13aa52;
+    border: 1px solid #13aa52;
+  }
+  
+  .edit__saveBtns:hover,
+  .edit__saveBtns:active {
+    color: #13aa52;
+  }
+
+
+

@@ -1,0 +1,72 @@
+.deleteModal{
+    background-color:#fff;
+    width:50rem;
+    height:25rem;
+    border-radius:9px;
+
+}
+
+.confirmation__heading{
+    margin-bottom:1.5rem;
+    text-align:center;
+    font-size:1.8rem;
+}
+
+.delete__confirmation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:left;
+}
+
+.item{
+    margin:0.8rem auto;
+    padding:0.5rem 3.5rem;
+    font-size:1.2rem;
+}
+
+.items{
+    margin:2.4rem auto;
+}
+
+.item__types{
+    display:inline-block;
+    font-size:1rem;
+    font-weight:bolder;
+    margin-right:1.8rem;
+    width:5rem;
+}
+
+.item__values{
+    text-align:right;
+
+}
+
+.delete__btns{
+  margin:1.5rem;
+  text-align:left;
+}
+
+.delete__cancel__btns {
+    background: #1A1A1A;
+    border: 1px solid #1A1A1A;
+}
+
+
+.delete__cancel__btns:hover {
+  color: #1A1A1A;
+  background-color:#fff;
+}
+
+.delete__confirm__btns {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+}
+
+.delete__confirm__btns:hover,
+.delete__confirm__btns:active {
+  color: #FF4742;
+}
+
+
